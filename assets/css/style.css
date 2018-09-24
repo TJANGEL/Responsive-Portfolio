@@ -216,17 +216,36 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
+@media  only screen and (max-width: 980px) {
 
 
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
   
 }
 
-@media screen and (max-width: 640px) {
-
+@media only screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+  }
   
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  #main-container {
+    width: 100%;
+    /* position: static; */
+    margin-top: -150px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
 }
