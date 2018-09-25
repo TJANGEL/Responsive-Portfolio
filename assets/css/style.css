@@ -217,19 +217,65 @@ input[type=submit] {
 }
 
 @media  only screen and (max-width: 980px) {
+  #masthead {
+    position: static;
+  }
 
+  #logo {
+    margin-left: 50px;
+  }
+
+  nav {
+    margin-right: 50px;
+  }
+
+  #main-container {
+    position: static;
+    margin-top: -120px;
+    margin-left: 50px;
+    margin-right: 400px;
+  }
 
 }
 
 @media only screen and (max-width: 768px) {
+  #masthead {
+    position: static;
+  }
 
+  #logo {
+    margin-left: 20px;
+  }
   
+  nav {
+    margin-right: 20px;
+  }
+
+  #main-container {
+    margin-top: -120px;
+    width: 95%;
+  }
+
+  /* about me*/
+    .auth-image {
+      width: 50%;
+    }
+
+  /* portfolio */
+    .work {
+      width: 46.8%;
+    }
+
+  /* contact */
+
+    /* fix form to align on left side */
 }
 
 @media only screen and (max-width: 640px) {
   #masthead {
     position: static;
-    margin-bottom: 0px;
+    margin-left: -30px;
+    overflow: hidden;
   }
   
   #logo {
@@ -240,11 +286,14 @@ input[type=submit] {
     width: 100%;
     margin: 0 auto;
     padding: 15px 20px;
-    padding-left: 160px;
+    padding-left: 180px;
   }
 
-  form {
-    padding: 0;
+  #main-container {
+    width: 90%;
+    font-size: 18px;
+    margin-top: -100px;
+    margin-left: 30px;
   }
 
   footer {
@@ -254,18 +303,24 @@ input[type=submit] {
     position: static;
   }
 
-  /#main-container {
-    width: 100%;
-    font-size: 18px;
-    margin-top: 0px;
-  }
-
+/* about me */
   .auth-image {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  /* p {
-    font-size: 18px;
-  } */
+/* portfolio */
+  .main-section > h1 {
+  font-size: 30px;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+/* contact */
+  form {
+    /* text-align: left; */
+  } 
+  /* fix form to align on left side */
 }
