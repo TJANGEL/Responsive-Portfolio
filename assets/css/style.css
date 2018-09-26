@@ -233,8 +233,22 @@ input[type=submit] {
     position: static;
     margin-top: -120px;
     margin-left: 50px;
-    margin-right: 400px;
+    width: 60%;
+    float: left;
   }
+
+  .main-section {
+    padding-top: 5px;
+  }
+
+  .work {
+    width: 46%;
+  }
+
+  /* contact */
+  li {
+    margin-left: -40px;
+  } 
 
 }
 
@@ -253,10 +267,12 @@ input[type=submit] {
 
   #main-container {
     margin-top: -120px;
+    margin-left: 20px;
     width: 95%;
+    float: left;
   }
 
-  /* about me*/
+  /* about me */
     .auth-image {
       width: 50%;
     }
@@ -267,40 +283,35 @@ input[type=submit] {
     }
 
   /* contact */
-
-    /* fix form to align on left side */
+    li {
+      margin-left: -40px;
+    } 
 }
 
 @media only screen and (max-width: 640px) {
   #masthead {
     position: static;
-    margin-left: -30px;
-    overflow: hidden;
   }
   
   #logo {
     width: 100%;
+    margin-left: 0;
   }
 
   nav {
     width: 100%;
-    margin: 0 auto;
-    padding: 15px 20px;
     padding-left: 180px;
+    padding-bottom: 20px;
   }
 
   #main-container {
-    width: 90%;
+    width: 95%;
     font-size: 18px;
-    margin-top: -100px;
-    margin-left: 30px;
+    margin-left: 15px;
   }
 
   footer {
     width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    position: static;
   }
 
 /* about me */
@@ -319,8 +330,7 @@ input[type=submit] {
   }
 
 /* contact */
-  form {
-    /* text-align: left; */
+  li {
+    margin-left: -40px;
   } 
-  /* fix form to align on left side */
 }
