@@ -300,7 +300,8 @@ input[type=submit] {
 
   nav {
     width: 100%;
-    padding-left: 180px;
+    padding: 0 auto;
+    text-align: center;
     padding-bottom: 20px;
   }
 
