@@ -59,9 +59,9 @@ p:last-child {
   height: 90px;
   font-family: "Patua One";
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 90px;
-  color: rgb(223, 223, 223);
+  color: white;
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
