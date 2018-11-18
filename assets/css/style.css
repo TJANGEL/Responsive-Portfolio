@@ -117,6 +117,7 @@ footer {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 /* portfolio page */
@@ -200,6 +201,11 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+#linkedIn,
+#github {
+  text-decoration: none;
 }
 
 /* Responsiveness */
