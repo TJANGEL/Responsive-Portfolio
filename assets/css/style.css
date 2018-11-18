@@ -35,7 +35,7 @@ p:last-child {
   color: #4aaaa5;
   font-family: "Syncopate";
   padding-bottom: 20px;
-  line-height: 49px;
+  line-height: 50px;
   border-bottom: 3px solid #ddd;
 }
 
@@ -89,8 +89,8 @@ nav a:first-child {
 /* footer */
 
 footer {
-  padding: 20px;
-  padding-bottom: 50px;
+  padding: 10px;
+  padding-bottom: 10px;
   clear: both;
   font-size: 15px;
   color: #4aaaa5;
@@ -98,7 +98,7 @@ footer {
   background: #666;
   border-top: 8px solid #4aaaa5;
   border-bottom: 8px solid #4aaaa5;
-  height: 50px;
+  height: 240px;
   font-family: "Graduate";
 }
 
