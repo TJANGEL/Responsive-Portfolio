@@ -205,7 +205,8 @@ input[type=submit] {
 
 #linkedIn,
 #github,
-#resume {
+#resume,
+#email {
   text-decoration: none;
 }
 
